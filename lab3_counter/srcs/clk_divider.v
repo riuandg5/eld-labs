@@ -9,7 +9,7 @@ module clk_divider #(parameter div_value = 5) (
     
     always @(posedge clk_in) begin
         if (count == (div_value - 1)) begin
-            count <= 3'b000;
+            count <= 0;
             clk_out <= ~clk_out;
         end else begin
             count <= count + 1;
