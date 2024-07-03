@@ -2,4 +2,4 @@
 
 ## FFT Simulation
 
-![](./ss/top_FFT_tb.jpg)
+![](./images/top_FFT_tb.jpg)
