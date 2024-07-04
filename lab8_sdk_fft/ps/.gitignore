@@ -6,10 +6,11 @@
 RemoteSystemsTempFiles
 webtalk
 
-# keep only system.hdf and .project in hw projects
-*_hw_platform_*/*
-!*_hw_platform_*/.project
-!*_hw_platform_*/*.hdf
+# hardware project can be generated from .hdf file
+*_hw_platform_*
+*_hw
+*_hw_platform
+*_hw_project
 
 # keep only .mss, .project, .cproject, .sdkproject, and Makefile in bsp projects
 *_bsp/*
